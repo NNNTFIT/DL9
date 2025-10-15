@@ -664,11 +664,11 @@ body{
 .foot-container-3-input-search{
     width: 309.84375px;
     height: 48px;
-    padding-left: 12px;
+    padding: 0 0 0 12px;
     box-sizing: border-box;
     border: 0;
     background-color: rgba(248, 249, 249, 1);
-    box-shadow: 0 0 0 1px rgba(104, 115, 125, 1);
+    box-shadow: inset 0 0 0 1px rgba(104, 115, 125, 1);
     font-weight: 400;
     font-size: 15px;
     line-height: 100%;
@@ -677,6 +677,7 @@ body{
 .foot-container-3-input-sub{
     width: 134.15625px;
     height: 48px;
+    padding: 0;
     background-color: rgba(23, 73, 77, 1);
     border: 2px solid rgba(23, 73, 77, 1);
     font-weight: 700;
